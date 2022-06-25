@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="443e63710645409da3c691952626e37c" Name="Diagram1">
+        <EntityTypeShape EntityType="HOUSEModel.Address" Width="1.5" PointX="3" PointY="19.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="HOUSEModel.AddressDuAn" Width="1.5" PointX="5.25" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="HOUSEModel.AddressHouse" Width="1.5" PointX="10.5" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="HOUSEModel.Category" Width="1.5" PointX="0.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HOUSEModel.DuAn" Width="1.5" PointX="3" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="HOUSEModel.House" Width="1.5" PointX="8.25" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="HOUSEModel.ImageDuAn" Width="1.5" PointX="5.25" PointY="18.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HOUSEModel.ImageHouse" Width="1.5" PointX="10.5" PointY="13.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="HOUSEModel.InfoDuAn" Width="1.5" PointX="5.25" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HOUSEModel.InfoHouse" Width="1.5" PointX="13.5" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HOUSEModel.Investor" Width="1.5" PointX="0.75" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HOUSEModel.Key" Width="1.5" PointX="3" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="HOUSEModel.TaiKhoan" Width="1.5" PointX="0.75" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="HOUSEModel.TinTuc" Width="1.5" PointX="3" PointY="15.75" IsExpanded="true" />
+        <AssociationConnector Association="HOUSEModel.FK_AddressDuAn_Address" ManuallyRouted="false" />
+        <AssociationConnector Association="HOUSEModel.FK_AddressHouse_Address" ManuallyRouted="false" />
+        <AssociationConnector Association="HOUSEModel.FK_AddressDuAn_DuAn" ManuallyRouted="false" />
+        <AssociationConnector Association="HOUSEModel.FK_AddressHouse_House" ManuallyRouted="false" />
+        <AssociationConnector Association="HOUSEModel.FK_Key_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="HOUSEModel.FK_DuAn_Investor" ManuallyRouted="false" />
+        <AssociationConnector Association="HOUSEModel.FK_DuAn_TaiKhoan" ManuallyRouted="false" />
+        <AssociationConnector Association="HOUSEModel.FK_House_DuAn" ManuallyRouted="false" />
+        <AssociationConnector Association="HOUSEModel.FK_ImageDuAn_DuAn" ManuallyRouted="false" />
+        <AssociationConnector Association="HOUSEModel.FK_InfoDuAn_DuAn" ManuallyRouted="false" />
+        <AssociationConnector Association="HOUSEModel.FK_House_TaiKhoan" ManuallyRouted="false" />
+        <AssociationConnector Association="HOUSEModel.FK_ImageHouse_House" ManuallyRouted="false" />
+        <AssociationConnector Association="HOUSEModel.FK_InfoHouse_House" ManuallyRouted="false" />
+        <AssociationConnector Association="HOUSEModel.FK_InfoDuAn_Key" ManuallyRouted="false" />
+        <AssociationConnector Association="HOUSEModel.FK_InfoHouse_Key" ManuallyRouted="false" />
+        <AssociationConnector Association="HOUSEModel.FK_TinTuc_TaiKhoan" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
